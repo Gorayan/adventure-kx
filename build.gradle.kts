@@ -27,6 +27,9 @@ tasks.withType<KotlinCompile> {
 }
 
 java {
+    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_1_8
+
     withJavadocJar()
     withSourcesJar()
 }
